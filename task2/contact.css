@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 18%;
+    padding-right: 18%;
+    transition: .3s;
+}
+
+.logo {
+    max-width: 100%;
+    width: 130px;
+    height: auto;
+    color: rgb(15, 23, 30);
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.navlist {
+    display: flex;
+}
+
+.navlist li {
+    position: relative;
+}
+
+.navlist a {
+    font-size: 20px;
+    color: rgb(40, 38, 38);
+    font-weight: 800;
+    padding: 10px 29px;
+}
+
+.wrapper {
+    display: grid;
+    place-items: center;
+    padding: 5rem 0;
+    background: url(images/img2.jpg);
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    background: rgb(250, 245, 245);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 0.5rem rgb(248, 246, 246);
+}
+
+label {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    color: rgb(5, 4, 4);
+}
+
+input,
+textarea {
+    width: 30rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: 0.1rem solid gray;
+    background: rgb(231, 225, 225);
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+@media screen and (max-width: 950px) {}
+
+@media screen and (max-width: 520px) {}

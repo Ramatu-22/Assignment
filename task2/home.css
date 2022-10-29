@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 20px 18%;
+    transition: .3s;
+}
+
+.logo {
+    max-width: 100%;
+    width: 130px;
+    height: auto;
+    color: rgb(15, 23, 30);
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.navlist {
+    display: flex;
+}
+
+.navlist li {
+    position: relative;
+}
+
+.navlist a {
+    font-size: 20px;
+    color: rgb(40, 38, 38);
+    font-weight: 800;
+    padding: 10px 29px;
+}
+
+section {
+    padding: 100px 18%;
+}
+
+.home {
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background: url(images/img2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-gap: 4rem;
+}
+
+.home-text h1 {
+    margin: 10px 0px 25px;
+    font-size: 60px;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.home-text h5 {
+    margin-bottom: 23px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.social a {
+    color: blue;
+    padding: 0 0.4rem;
+}
+
+.social a:hover {
+    color: blue;
+}
+
+.social p {
+    color: blue;
+}
+
+.social a {
+    font-family: blue;
+    color: blue;
+    text-decoration: none;
+}
+
+span {
+    color: rgb(241, 43, 43);
+    font-weight: 600;
+}
+
+.home-text h3 {
+    color: rgb(244, 54, 54);
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 8px;
+}
+
+.mail {
+    font-size: 20px;
+    color: rgb(244, 54, 54);
+    font-weight: 600;
+}
+
+.home-text p {
+    font-size: 16px;
+    color: rgb(0, 9, 10);
+    line-height: 28px;
+    margin-bottom: 20px;
+    font-weight: 300px;
+}
+
+.end {
+    background-color: rgb(154, 160, 160);
+    margin: auto;
+    width: 100%;
+    display: block;
+}
+
+.end p {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
